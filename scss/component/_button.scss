@@ -10,24 +10,10 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  &:hover {
+    background-color: lighten($nav-button-colour, 15%);
+    cursor: pointer;
+  }
 }
 
-.default {
-  background-color: $default;
-}
-
-.error {
-  background-color: $error;
-}
-
-.info {
-  background-color: $info;
-}
-
-.success {
-  background-color: $success;
-}
-
-.warning {
-  background-color: $warning;
-}
+@include button-display;

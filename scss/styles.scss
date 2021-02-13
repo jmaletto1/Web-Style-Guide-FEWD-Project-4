@@ -1,14 +1,10 @@
 // Imports
 
 // Utilities
-@import "utilities/_index", "utilities/_mixins", "utilities/_variables";
+@import "utilities/_index";
 
 // Base
-@import "base/_index", "base/_normalize", "base/typography";
+@import "base/_index";
 
 // Components
-@import "component/_index", "component/_button", "component/_form",
-  "component/_grid", "component/_navigation";
-
-// Media Queries
-@import "base/_media";
+@import "component/_index";

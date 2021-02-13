@@ -1,0 +1,26 @@
+// Mixins
+
+@mixin grid-styling($map) {
+  @each $col, $colour in $map {
+    &.#{$col} {
+      background-color: $colour;
+    }
+  }
+}
+
+@mixin button-display() {
+  @each $button, $colour in $buttons {
+    .#{$button} {
+      background-color: $colour;
+      &:hover {
+        @include button-hover($default);
+      }
+    }
+  }
+}
+
+@mixin button-hover($color) {
+  transition: 1s ease-out;
+  background-color: lighten($color, 15%);
+  cursor: pointer;
+}
