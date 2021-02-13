@@ -394,10 +394,6 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
-.btn:hover {
-  background-color: white;
-  cursor: pointer;
-}
 
 .default {
   background-color: #51ddfc;

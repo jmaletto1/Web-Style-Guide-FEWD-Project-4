@@ -19,8 +19,8 @@
   }
 }
 
-@mixin button-hover($color) {
+@mixin button-hover($colour) {
   transition: 1s ease-out;
-  background-color: lighten($color, 15%);
+  background-color: lighten($colour, 15%);
   cursor: pointer;
 }
