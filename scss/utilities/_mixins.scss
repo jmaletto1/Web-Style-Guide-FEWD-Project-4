@@ -13,7 +13,8 @@
     .#{$button} {
       background-color: $colour;
       &:hover {
-        @include button-hover($default);
+        @include button-hover($colour);
+        font-size: 1.2rem;
       }
     }
   }

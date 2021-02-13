@@ -402,6 +402,7 @@ a {
   transition: 1s ease-out;
   background-color: #9cecfd;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .error {
@@ -409,8 +410,9 @@ a {
 }
 .error:hover {
   transition: 1s ease-out;
-  background-color: #9cecfd;
+  background-color: #f1b5b8;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .info {
@@ -418,8 +420,9 @@ a {
 }
 .info:hover {
   transition: 1s ease-out;
-  background-color: #9cecfd;
+  background-color: #bdafd9;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .success {
@@ -427,8 +430,9 @@ a {
 }
 .success:hover {
   transition: 1s ease-out;
-  background-color: #9cecfd;
+  background-color: #9ddfb0;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .warning {
@@ -436,8 +440,9 @@ a {
 }
 .warning:hover {
   transition: 1s ease-out;
-  background-color: #9cecfd;
+  background-color: #feb4a2;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 /* ============================================= */
